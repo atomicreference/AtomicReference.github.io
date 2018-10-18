@@ -20,23 +20,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Futurama</title>
-      <link>https://atomicreference.github.io/tags/futurama/</link>
-      <pubDate>Wed, 30 Aug 2017 18:34:02 +0000</pubDate>
-      
-      <guid>https://atomicreference.github.io/tags/futurama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lorem</title>
-      <link>https://atomicreference.github.io/tags/lorem/</link>
-      <pubDate>Wed, 30 Aug 2017 19:34:02 +0000</pubDate>
-      
-      <guid>https://atomicreference.github.io/tags/lorem/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
