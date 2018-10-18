@@ -19,11 +19,9 @@
       <guid>https://atomicreference.github.io/post/my-first-post/</guid>
       <description>Hello world! Here is my first post.
 I shall begin it explaining how I setup this blog using GitHub Pages, GitLab and Hugo.
+Creating a new GitHub Pages To setup a new GitHub page, the website tutorial is pretty straightforward, so I will skip this.
 Hugo Hugo is a static website generator built on Go. It is extremely fast and requires little setup to start using it.
-To install it is as simple as:
-MacOS brew install hugo
-Linux apt-get install hugo or snap install hugo
-Hugo has many themes you can choose.</description>
+To install it is as simple as:</description>
     </item>
     
   </channel>

@@ -61,6 +61,10 @@
 
 <p>I shall begin it explaining how I setup this blog using GitHub Pages, GitLab and Hugo.</p>
 
+<h2 id="creating-a-new-github-pages">Creating a new GitHub Pages</h2>
+
+<p>To setup a new GitHub page, the <a href="https://pages.github.com/" target="_blank">website tutorial</a> is pretty straightforward, so I will skip this.</p>
+
 <h2 id="hugo">Hugo</h2>
 
 <p><a href="https://gohugo.io/" target="_blank">Hugo</a> is a static website generator built on Go. It is extremely fast and requires little setup to start using it.</p>
@@ -73,9 +77,59 @@
 <p><em>Linux</em>
 <code>apt-get install hugo</code> or <code>snap install hugo</code></p>
 
-<p>Hugo has <a href="https://themes.gohugo.io/" target="_blank">many themes</a> you can choose. For this post I will use <a href="https://themes.gohugo.io/pixyll/" target="_blank">Pixyll</a> which is the same I used for this blog. It has support to Google analytics and Disqus integration, which is something I was looking for.</p>
+<p>Hugo has <a href="https://themes.gohugo.io/" target="_blank">many themes</a> you can choose. For this post I will use <a href="https://themes.gohugo.io/pixyll/" target="_blank">Pixyll</a> which is the same I used for this blog. It has support to Google Analytics, Markdown and Disqus integration, which is something I was looking for.</p>
 
-<p>To continue&hellip;</p>
+<h3 id="up-and-running">Up and running</h3>
+
+<p>After installing Hugo, you can create a new site with:</p>
+
+<pre><code>$ hugo new site my-new-blog
+</code></pre>
+
+<p>And you can start a server with:</p>
+
+<pre><code>$ hugo server
+</code></pre>
+
+<p>This will build all static files and keep an eye on any updates you do in your posts.</p>
+
+<p>To create a new post just type:</p>
+
+<pre><code>$ hugo new post file-name
+</code></pre>
+
+<p>And to build static files to a directory with (save it for later):</p>
+
+<pre><code>$ hugo -d build_directory/
+</code></pre>
+
+<h3 id="installing-a-theme">Installing a theme</h3>
+
+<p>You can follow the instructions of the theme, but usually it goes like this:</p>
+
+<pre><code>$ cd my-new-blog
+$ git clone https://github.com/azmelanar/hugo-theme-pixyll.git themes/hugo-theme-pixyll
+
+# Copies default configurations form themes to your new site
+$ cp -R themes/hugo-theme-pixyll/exampleSite/config.toml ./config.toml
+</code></pre>
+
+<p>After that, it&rsquo;s important for you to edit the <code>config.toml</code> and properly set your name, GitHub page, etc.</p>
+
+<h3 id="manually-deploying-your-changes-to-github-pages">Manually deploying your changes to GitHub pages</h3>
+
+<p>After creating your GitHub Pages, clone it to the same directory that has your new hugo website. Then you will have to build it, commit and push the changes.</p>
+
+<p>You can manually deploy your new blog with the following commands:</p>
+
+<pre><code># Creates the static files required by GitHub pages
+$ hugo -d ../my-new-blog.github.io/
+$ cd ../my-new-blog.github.io/
+$ git commit -am &quot;My new blog&quot;
+$ git push
+</code></pre>
+
+<p>If you try to access your GitHub pages, you should see it as you would locally.</p>
 
       </article>
 
