@@ -126,6 +126,21 @@ $ git push
 
 <p>If you try to access your GitHub pages, you should see it working as it would locally.</p>
 
+<h3 id="automatically-building-deploying-from-gitlab">Automatically building &amp; deploying from GitLab</h3>
+
+<p>If you are like me, you probably don&rsquo;t want to remember to type the commands above for each post. So I researched how to automatically generate a new blog version, but the solution ends up either creating a <code>deploy.sh</code> script to manually run it or use CI. We are going to do the latter with <a href="https://about.gitlab.com/features/gitlab-ci-cd/" target="_blank">GitLab CI</a>.</p>
+
+<p>Why GitLab?
+- It has free private repositories;
+- CI/CD built-in;
+- Kanban boards;
+- Free private groups; and more!</p>
+
+<ol>
+<li>Create a user account in <a href="https://gitlab.com/users/sign_in" target="_blank">GitLab</a> for free.</li>
+<li>Create a <a href="https://gitlab.com/projects/new" target="_blank">new project</a> with whatever name you like. <em>Here I made my repository private, but you decide.</em></li>
+</ol>
+
       </article>
 
       <p class="post-meta">Tags:&nbsp;
