@@ -110,15 +110,15 @@
 <pre><code>$ cd my-new-blog
 $ git clone https://github.com/azmelanar/hugo-theme-pixyll.git themes/hugo-theme-pixyll
 
-# Copies default configurations form themes to your new site
+# Copies default configurations from themes to your new site
 $ cp -R themes/hugo-theme-pixyll/exampleSite/config.toml ./config.toml
 </code></pre>
 
-<p>After that, it&rsquo;s important for you to edit the <code>config.toml</code> and properly set your name, GitHub page, etc.</p>
+<p>After that, it&rsquo;s important for you to edit the file <code>config.toml</code> and properly set your name, GitHub page, etc.</p>
 
 <h3 id="manually-deploying-your-changes-to-github-pages">Manually deploying your changes to GitHub pages</h3>
 
-<p>After creating your GitHub Pages, clone it to the same directory that has your new hugo website. Then you will have to build it, commit and push the changes.</p>
+<p>After creating your GitHub Pages, clone it in the parent directory that has your new hugo website. Then you will have to copy all static files from your hugo website to the GitHub pages repository, commit and push the changes.</p>
 
 <p>You can manually deploy your new blog with the following commands:</p>
 
@@ -129,7 +129,7 @@ $ git commit -am &quot;My new blog&quot;
 $ git push
 </code></pre>
 
-<p>If you try to access your GitHub pages, you should see it as you would locally.</p>
+<p>If you try to access your GitHub pages, you should see it working as it would locally.</p>
 
       </article>
 
