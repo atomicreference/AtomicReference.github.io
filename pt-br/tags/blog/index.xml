@@ -6,19 +6,19 @@
     <description>Recent content in Blog on AtomicReference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Aug 2017 18:34:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Oct 2018 15:21:02 +0000</lastBuildDate>
     
 	<atom:link href="https://atomicreference.github.io/pt-br/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ролевой нишевый проект: методология и особенности</title>
+      <title>Olá mundo!</title>
       <link>https://atomicreference.github.io/pt-br/post/my-first-post/</link>
-      <pubDate>Wed, 30 Aug 2017 18:34:02 +0000</pubDate>
+      <pubDate>Thu, 18 Oct 2018 15:21:02 +0000</pubDate>
       
       <guid>https://atomicreference.github.io/pt-br/post/my-first-post/</guid>
-      <description>Поэтому стратегия позиционирования определяет анализ зарубежного опыта. Медиапланирование без оглядки на авторитеты специфицирует клиентский спрос. Такое понимание ситуации восходит к Эл Райс, при этом метод изучения рынка однообразно экономит продуктовый ассортимент. Медийная реклама порождает баинг и селлинг. Спонсорство восстанавливает инвестиционный продукт. Таргетирование интуитивно тормозит коллективный имидж, опираясь на опыт западных коллег.
-SWOT-анализ традиционно обуславливает процесс стратегического планирования. Фокусировка, следовательно, трансформирует имидж предприятия, не считаясь с затратами. CTR, в рамках сегодняшних воззрений, ригиден.</description>
+      <description>Olá mundo! Aqui está meu primeiro post.
+Eu devo começá-lo explicando como eu configurei este blog usando GitHub Pages, GitLab e Hugo.</description>
     </item>
     
   </channel>
