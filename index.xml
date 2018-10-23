@@ -23,6 +23,16 @@ To install it is as simple as:</description>
     </item>
     
     <item>
+      <title>Olá mundo!</title>
+      <link>https://atomicreference.github.io/post/my-first-post.pt-br/</link>
+      <pubDate>Thu, 18 Oct 2018 15:21:02 UTC</pubDate>
+      
+      <guid>https://atomicreference.github.io/post/my-first-post.pt-br/</guid>
+      <description>Olá mundo! Aqui está meu primeiro post.
+Eu devo começá-lo explicando como eu configurei este blog usando GitHub Pages, GitLab e Hugo.</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://atomicreference.github.io/contact/</link>
       <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
@@ -41,12 +51,30 @@ To install it is as simple as:</description>
     </item>
     
     <item>
+      <title>Контакты</title>
+      <link>https://atomicreference.github.io/contact/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://atomicreference.github.io/contact/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://atomicreference.github.io/about/</link>
       <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>
       
       <guid>https://atomicreference.github.io/about/</guid>
       <description>Few words about project.</description>
+    </item>
+    
+    <item>
+      <title>О нас</title>
+      <link>https://atomicreference.github.io/about/</link>
+      <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>
+      
+      <guid>https://atomicreference.github.io/about/</guid>
+      <description>Пару слов о проекте.</description>
     </item>
     
   </channel>
