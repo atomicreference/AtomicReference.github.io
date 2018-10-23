@@ -190,7 +190,7 @@ To setup GitLab CI it&rsquo;s pretty simple, just add a file named <code>.gitlab
 
 <p>The <code>artifacts</code> step tells GitLab that, after this whole step finishes, you want to keep the <code>build/</code> folder for a single day. This is useful in case you want to rollback changes or debug what your CI is doing.</p>
 
-<h3 id="automatically-deploying-to-github-pages">Automatically Deploying to GitHub Pages</h3>
+<h4 id="automatically-deploying-to-github-pages">Automatically Deploying to GitHub Pages</h4>
 
 <p>Now that we have installed Hugo and generated our static website, we need to deploy to GitHub.</p>
 
@@ -225,7 +225,7 @@ To setup GitLab CI it&rsquo;s pretty simple, just add a file named <code>.gitlab
 
 <p>After adding all this to <code>.gitlab-ci.yml</code> and commiting to GitLab, the build should be broken, but you should see that the CI/CD Pipelines are now being triggered on changes. We still need to set the <code>$GITHUB_ACCESS_TOKEN</code> variable.</p>
 
-<h3 id="defining-gitlab-ci-environment-variables">Defining GitLab CI Environment Variables</h3>
+<h4 id="defining-gitlab-ci-environment-variables">Defining GitLab CI Environment Variables</h4>
 
 <p>We don&rsquo;t want to expose our passwords in files, because other people could have access to it. If you are the only person that will ever have access to this repository, then you can ignore all this and just replace the variable in your configuration file. However, it is STRONGLY advised to keep your secrets somewhere safe.</p>
 
