@@ -24,15 +24,5 @@ Hugo Hugo is a static website generator built on Go. It is extremely fast and re
 To install it is as simple as:</description>
     </item>
     
-    <item>
-      <title>Olá mundo!</title>
-      <link>https://atomicreference.github.io/post/my-first-post.pt-br/</link>
-      <pubDate>Thu, 18 Oct 2018 15:21:02 +0000</pubDate>
-      
-      <guid>https://atomicreference.github.io/post/my-first-post.pt-br/</guid>
-      <description>Olá mundo! Aqui está meu primeiro post.
-Eu devo começá-lo explicando como eu configurei este blog usando GitHub Pages, GitLab e Hugo.</description>
-    </item>
-    
   </channel>
 </rss>
