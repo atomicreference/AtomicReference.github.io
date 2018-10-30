@@ -231,6 +231,28 @@ To setup GitLab CI it&rsquo;s pretty simple, just add a file named <code>.gitlab
 
 <p>We don&rsquo;t want to expose our passwords in files, because other people could have access to it. If you are the only person that will ever have access to this repository, then you can ignore all this and just replace the variable in your configuration file. However, it is STRONGLY advised to keep your secrets somewhere safe.</p>
 
+<p><strong>Steps</strong><br />
+You can skip the steps below and go right to the page to create a token <a href="https://github.com/settings/tokens/new?scopes=public_repo" target="_blank">here</a>.
+1. In your GitHub, go to <strong>Settings</strong>
+2. On the left bottom, click <strong>Developer Settings</strong>
+3. Then <strong>Personal access tokens</strong>
+4. Click on <strong>Generate new token</strong>
+5. Select <code>public_repo</code>
+6. Finally, Click <strong>Generate token</strong></p>
+
+<p>With your new token, go to your repository in GitLab.
+1. Click on <strong>Settings</strong>
+2. Then <strong>CI / CD</strong>
+3. Expand the <strong>Variables</strong> section.
+4. For variable name, type <code>GITHUB_ACCESS_TOKEN</code>
+5. For the value, enter the new token.
+6. Mark it as <strong>Protected</strong>
+7. Save variables</p>
+
+<p>If you try to run your pipeline now, it should pass correctly. You should also see that your changes are now being pushed to your GitHub pages and that your website is now being correctly displayed.</p>
+
+<p>I hope this helps! Thanks for reading my first post!</p>
+
       </article>
 
       <p class="post-meta">Tags:&nbsp;
