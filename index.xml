@@ -7,7 +7,18 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 18 Oct 2018 15:21:02 UTC</updated>
+    <updated>Tue, 30 Oct 2018 12:14:02 UTC</updated>
+    
+    <item>
+      <title>Writing Better Tests In Java</title>
+      <link>https://atomicreference.github.io/post/writing-better-tests-in-java/</link>
+      <pubDate>Tue, 30 Oct 2018 12:14:02 UTC</pubDate>
+      
+      <guid>https://atomicreference.github.io/post/writing-better-tests-in-java/</guid>
+      <description>Ever wondered why your tests break everytime you change production code? Are your tests difficult to read? This usually happens due to tests being too attached to the corresponding implementation. I will show a few techniques on how to writte better tests in Java.
+PS.: I will call &amp;laquo;Production Code&amp;raquo;, the code that you write to make your tests pass.
+Issue #1: Changing Production Code Breaks Many Tests When your tests are too specific and bound to its implementation, you will notice that any changes to the production code such as extracting a method, extracting a class, and others, breaks your unit tests.</description>
+    </item>
     
     <item>
       <title>Hello World!</title>

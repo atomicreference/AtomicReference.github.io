@@ -38,5 +38,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Java</title>
+      <link>https://atomicreference.github.io/tags/java/</link>
+      <pubDate>Tue, 30 Oct 2018 12:14:02 +0000</pubDate>
+      
+      <guid>https://atomicreference.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tdd</title>
+      <link>https://atomicreference.github.io/tags/tdd/</link>
+      <pubDate>Tue, 30 Oct 2018 12:14:02 +0000</pubDate>
+      
+      <guid>https://atomicreference.github.io/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://atomicreference.github.io/tags/test/</link>
+      <pubDate>Tue, 30 Oct 2018 12:14:02 +0000</pubDate>
+      
+      <guid>https://atomicreference.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
