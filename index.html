@@ -63,7 +63,7 @@
   <p class="post-author right">Written by AtomicReference</p>
   <div class="clearfix"></div>
   <h3 class="h2 post-title">Getting The Current Page in Phoenix Framework </h3>
-  <p class="post-summary">When programming in Phoenix Framework, you sometimes need to code a decision point based on the current page. To do this, we can make use of Plug.Conn.path_info and compare it with Routes.
+  <p class="post-summary">When programming in Phoenix Framework, you sometimes need to code a decision point based on the current page. To do this, we can make use of Plug.Conn&rsquo;s path_info field and compare it with Routes.
 Let&rsquo;s say you have the following piece of code:
 &lt;%= if is_accounts_page(@conn) %&gt; &lt;div&gt; # Account related content &lt;/div&gt; &lt;% end %&gt;  To find out if the user is in the account route, you can compare the current path with the Account page route in LayoutView:</p>
   </a>

@@ -57,7 +57,7 @@
       </div>
 
       <article class="post-content">
-      <p>When programming in Phoenix Framework, you sometimes need to code a decision point based on the current page. To do this, we can make use of <code>Plug.Conn.path_info</code> and compare it with <code>Routes</code>.</p>
+      <p>When programming in <a href="https://phoenixframework.org" target="_blank">Phoenix Framework</a>, you sometimes need to code a decision point based on the current page. To do this, we can make use of <a href="https://hexdocs.pm/plug/Plug.Conn.html" target="_blank">Plug.Conn&rsquo;s</a> <code>path_info</code> field and compare it with <code>Routes</code>.</p>
 
 <p>Let&rsquo;s say you have the following piece of code:</p>
 
@@ -70,7 +70,7 @@
 
 <p>To find out if the user is in the account route, you can compare the current path with the Account page route in <code>LayoutView</code>:</p>
 
-<pre><code class="language-elixir">def is_accounts_page(conn = %{path_info: path_info}) do
+<pre><code class="language-elixir">def is_accounts_page(conn = %Plug.Conn{path_info: path_info}) do
   path_info
   |&gt; join_path()
   |&gt; String.equivalent?(Routes.accounts_path(conn, :index))
@@ -81,7 +81,7 @@ defp join_path(path_info), do: &quot;/&quot; &lt;&gt; Enum.join(path_info, &quot
 
 <p>As we can see, in the first line we extract the <code>path_info</code> from <code>conn</code>. Then we join all path parts into a single string. Finally, we compare the current path with the <code>Routes.accounts_path</code>.</p>
 
-<p>You can go even further and making this function apply to any page, passing the route path as argument.</p>
+<p>You can go even further and make this function work for any page by passing the route path as argument.</p>
 
       </article>
 
