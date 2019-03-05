@@ -63,11 +63,11 @@
 
 <p>PS.: I will call &laquo;Production Code&raquo;, the code that you write to make your tests pass.</p>
 
-<h1 id="issue-1-changing-production-code-breaks-many-tests">Issue #1: Changing Production Code Breaks Many Tests</h1>
+<h2 id="changing-production-code-breaks-many-tests">Changing Production Code Breaks Many Tests</h2>
 
 <p>When your tests are too specific and bound to its implementation, you will notice that any changes to the production code such as <a href="https://refactoring.com/catalog/extractMethod.html" target="_blank">extracting a method</a>, <a href="https://refactoring.com/catalog/extractClass.html" target="_blank">extracting a class</a>, and others, breaks your unit tests. This is a sympton of <a href="https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html" target="_blank">fragile tests</a>. However, when you change behaviour or business rules, broken tests are expected. Nevertheless, your tests should not break when you change a variable from <code>Integer</code> to <code>Double</code>.</p>
 
-<h2 id="builder-pattern-to-the-rescue">Builder Pattern To The Rescue</h2>
+<h3 id="builder-pattern-to-the-rescue">Builder Pattern To The Rescue</h3>
 
 <p>A way to avoid getting broken tests every time is to keep your unit tests as high level as possible, trying to keep it as disconnected as possible from its implementation.</p>
 
@@ -136,6 +136,8 @@ public class AccountTest {
     }
 }
 </code></pre>
+
+<p>To sum up, keep your tests as abstract as possible. Make use of the builder pattern and create functions to help you on that.</p>
 
       </article>
 
