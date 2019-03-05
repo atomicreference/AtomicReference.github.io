@@ -63,13 +63,11 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'''
 
 if os.path.exists('./public/tipuesearch'):
     pages = walker('.')
-    print(pages)
     nodes = []
     for p in pages:
         node = parser(p)
         if node:
             nodes.append(node)
-    print(nodes)
     jsoner(nodes)
     sitemaper(nodes)
 else:
