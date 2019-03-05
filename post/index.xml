@@ -6,7 +6,7 @@
     <description>Recent content in Posts on AtomicReference</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Oct 2018 12:14:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 16:31:19 +0000</lastBuildDate>
     
 	<atom:link href="https://atomicreference.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Getting The Current Page in Phoenix Framework</title>
       <link>https://atomicreference.github.io/post/getting-the-current-page-in-phoenix/</link>
-      <pubDate>Tue, 30 Oct 2018 12:14:02 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2019 16:31:19 +0000</pubDate>
       
       <guid>https://atomicreference.github.io/post/getting-the-current-page-in-phoenix/</guid>
       <description>When programming in Phoenix Framework, you sometimes need to code a decision point based on the current page. To do this, we can make use of Plug.Conn.path_info and compare it with Routes.
